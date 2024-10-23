@@ -11,7 +11,7 @@ docker run -it --rm -p 9090:8888 vid-bebek-vm
 Prvi korak je extract foldera database. Pripaziti da se nakon extracta database.zip folder dataset sa dokumentima prebaci u direktorij.
 
 Database skripta se lokalno vrti oko 9 minuta i stvara 2 file-a koje koristi retrieval bilježnica.
-Online izvođenje skripte traje duže od toga te iz tog razloga uploadam već spremne fileove za lakše testiranje.
+Online izvođenje skripte traje duže od toga te iz tog razloga uploadam već spremne fileove za lakše testiranje. Za upload datoteka koristio sam Git LFS
 
 U retrieval bilježnicu potrebno je unijeti API ključ za model.
 
